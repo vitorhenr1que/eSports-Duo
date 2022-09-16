@@ -1,0 +1,12 @@
+    function handleCreateAd(e: FormEvent){
+        e.preventDefault()
+        console.log('Clicou no Ad')
+        const formData = new FormData(event.target as HTMLFormElement)
+        const data = Object.fromEntries(formData)
+        console.log(data)
+      }
+
+// Colocar name="" nos inputs
+
+
+arr.map(Number) transforma strings em numeros dentro da array
