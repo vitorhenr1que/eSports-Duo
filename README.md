@@ -1,4 +1,4 @@
-# nlw-esports-rocketseat
+# eSports Duo
 
 ![Projeto Esports](https://user-images.githubusercontent.com/85037374/191056144-dca26746-0e16-4eae-bf56-2232c64bf65b.png)
 
