@@ -1,9 +1,0 @@
--- Alinhar Div no Centro da Tela
-
-top: 50%
-left: 50%
-translate-lateral: 50%
-translate-vertical: 50%
-
-
-biblioteca icons ---- phosfor-react

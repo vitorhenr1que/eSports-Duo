@@ -1,5 +1,0 @@
-Expo Splash para criar icons e imagens pros Apps
-
-Biblioteca React Navigation
-
-Biblioteca Linear Gradient
