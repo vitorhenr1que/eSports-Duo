@@ -6,7 +6,7 @@
 
 ## 📝 Descrição 
 
-Uma plataforma para encontrar o parceiro perfeito para jogar seu jogo favorito juntos.  
+A plataforma para encontrar o parceiro perfeito para jogar seu jogo favorito.
 
 
 ## 🚀 Tecnologias
