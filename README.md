@@ -39,10 +39,10 @@ $ npm install
 # Instale as dependências da pasta "web/server"
 $ npm install
 
-# Execute o servidor /web
+# Execute o servidor react/vite na pasta "/web"
 $ npm run dev
 
-# Execute o servidor web/server
+# Execute o servidor node/express "web/server"
 $ npm run dev
 ```
 
