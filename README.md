@@ -25,6 +25,28 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Phosphor Icons](https://phosphoricons.com/)
 - [Radix](https://www.radix-ui.com/)
 
+## 💻 Requisitos
+
+- Você precisa instalar o [Node.js](https://nodejs.org/en/download/)
+
+
+**Siga os passos abaixo**
+
+```bash
+# Instale as dependências na pasta "web"
+$ npm install
+
+# Instale as dependências da pasta "web/server"
+$ npm install
+
+# Execute o servidor /web
+$ npm run dev
+
+# Execute o servidor web/server
+$ npm run dev
+```
+
+
 ## 🔗 Links
 
 <p align="left">
