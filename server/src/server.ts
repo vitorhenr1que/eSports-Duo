@@ -1,5 +1,5 @@
 import express from 'express'
-import { PrismaClient } from '@prisma/client'
+import { PrismaClient } from 'prisma/prisma-client'
 import { ConvertHoursStringToMinutes } from './utils/convert-hours-to-minutes-strings'
 import { ConvertMinutesStringToHours } from './utils/convert-minutes-to-hours-string'
 import cors from 'cors'
@@ -8,6 +8,8 @@ const app = express()
 app.use(express.json())
 const prisma = new PrismaClient()
 app.use(cors())
+
+
 
 app.get('/games' , async (request, response) => {
                         // ("game" é o nome da table) findMany pega tudo de dentro e Retorna um array
@@ -72,7 +74,7 @@ app.get('/games/:id/ads', async (request, response) => {
         }
     })
 
-    response.json(ads.map((ad) => {
+    response.json(ads.map((ad:any) => {
         return {
             ...ads, // retorne todos os select de adds
             weekDays: ad.weekDays.split(","), //weekDays substitua por
